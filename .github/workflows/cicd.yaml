@@ -1,0 +1,11 @@
+Name: First GitHub action test
+on: push
+jobs:
+ b17_first_job:
+ run-on: ubuntu-latest
+
+ steps:
+  - name: message
+    run: echo "welcome to GitHub actions by BATCH17D CHAMPS"cancel-timeout-minutes: 
+    
+
